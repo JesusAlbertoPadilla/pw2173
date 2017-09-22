@@ -1,0 +1,7 @@
+body{
+	border:1px solid blue;
+	font-size: 16px; /*1em–––es la M que es el espacio mas grande de tamaño de letras*/
+	margin: 0 auto;
+	max-width: 1024px;
+
+}
