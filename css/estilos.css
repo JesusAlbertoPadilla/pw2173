@@ -1,0 +1,65 @@
+/*/*Nota: todo en orden alfabético
+pseudoelementos @ 
+Selectores –cambian atributos
+	etiquetas ejem. p,html,div
+	identificador ejem. #id 
+	clases ejem. .class
+media queries –diseño adaptativo= sirve para darle la misma pagina a todos los dispositivos*/
+
+body{
+
+	background: yellow;
+	/*#1A45AB;*/
+    /*rgba(34,56,2,1);*/
+    /*rgb(101,101,101);*/
+	color: red;
+	width: 1024px;
+	border: 1px solid red;
+	margin: 0 auto;
+
+
+}
+header{
+
+	text-align: center;
+	border: 1px solid blue;
+}
+header img{
+	float: right;
+	width: 90px;
+	margin-right: 15px;
+	margin-top: -60px 
+}
+header nav{
+	margin-top: 60px;
+}
+
+header nav ul li{
+	display: inline-block;
+	border-radius: 5px;
+	background: yellow;
+	color: red;
+	margin: 0px 10px 0px 0px; 
+	padding: 5px 8px 5px 8px;
+	width: 80px;
+	box-shadow: -3px -3px black;
+}
+
+header nav ul li:hover{
+	background: black;
+	color: white;
+
+}
+section article{
+	width: 32.8%;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid tomato;
+}
+footer{
+	background: blue;
+	color:white;
+	text-align: center;
+	margin-top: 10px;
+}
+
