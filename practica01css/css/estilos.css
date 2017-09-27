@@ -40,12 +40,41 @@ form input[type="button"]{
 }
 form input{ /*todos los inputs*/
 	border-radius:5px;
+	margin-top: -15px
 }
+
+
 #Seccion01 article{
 	text-align: center;
 }
+
 #Seccion01 article img{
 	border:5px solid rgba(150,150,150,0.5);
 	margin-top: 5px;
 	width:98%;
+}
+
+#Seccion02 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 32.8%;
+}
+
+.unaSeccion,.otraSeccion{
+	font-weight: bold;
+}
+
+.unaSeccion{ /*es una clase*/
+	font-size: 4.5em;
+}
+
+.otraSeccion{
+	font-size: 2.5em;
+}
+
+#Seccion02 article input[type="submit"]{
+	margin-left: 130px;
+	color: blue;
+	background-color: white;
+	border-radius: 5px;
 }
