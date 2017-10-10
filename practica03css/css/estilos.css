@@ -3,12 +3,32 @@ body{
 	margin: 0 auto; 
 	max-width: 1024px; 
 }
+.circulos{
+	float: right;
+}
+
+nav ul{
+	background: orange;
+	padding:1px 0px 1px 0px;
+	width: 99%;
+	margin:0 auto;
+	border-radius:5px;
+}
 
 nav ul li{
-	background:orange;
-	color:white;
+	
+	color:black;
 	display:inline-block;
 	margin-right: 20px;
+}
+
+#texto{
+	vertical-align: middle;
+}
+
+
+#tabla{
+	margin-top: -250px;
 }
 
 #boton{
@@ -21,4 +41,27 @@ nav ul li{
 
 #seccion1article2{
 	float: right;
+}
+
+.titulo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8em;
+	color: gray;
+	font-weight: bold;
+}
+
+#seccion2{
+	display: inline-block;
+	vertical-align: center;
+}
+
+.caja{
+	background-color: orange;
+	margin: 0 auto;
+	border-radius: 150px;
+	color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 20px;
+
 }

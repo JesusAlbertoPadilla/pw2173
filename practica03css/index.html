@@ -3,14 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Practica03</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/logo.jpg" alt="">
-		<img src="img/red1.png" alt="">
-		<img src="img/red2.png" alt="">
-		<img src="img/red3.png" alt="">
+		<img src="img/red1.png" alt="" class="circulos">
+		<img src="img/red2.png" alt="" class="circulos">
+		<img src="img/red3.png" alt="" class="circulos">
 	</header>
 	<nav>
 		<ul>
@@ -23,14 +24,17 @@
 			<li>ADMINISTRADOR</li>
 		</ul>
 	</nav>
+	<br>
 	<section id="seccion1">
 		<article>
 			<img src="img/slider.jpg" alt="">
+			
 		</article>
 		<article id="seccion1article2">
-			<span id="Publicidad">PUBLICIDAD</span>
+			
 			<br>
-			<table>
+			<table id="tabla">
+				<caption class="caja">Publicidad</caption>
 				<tr>
 					<th><img src="img/publicidad.jpg" alt=""></th>
 					<th><img src="img/publicidad.jpg" alt=""></th>
@@ -46,12 +50,18 @@
 	</section>
 	<section id="seccion2">
 		<article>
+			<span class="titulo">Titulo del Post</span>
+		</article>
+			<br>
+		<article>
 			<img src="img/img-post.jpg" alt="">
-			<span class="comun">Titulo del Post</span>
+		</article>
+		<article id="texto">
 			Por admin El 30/05/2012 En Pruebas
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium et facere, cupiditate illum nisi. Veritatis incidunt temporibus a aliquid pariatur nostrum. Ipsam, libero, blanditiis. Voluptatibus veritatis sed vel quis vero?
-			<input type="button" value="Leer Mas..">
 		</article>
+			<input type="button" value="Leer Mas..">
+		
 		<article>
 			<span>Buscador</span>
 			<input type="search">
