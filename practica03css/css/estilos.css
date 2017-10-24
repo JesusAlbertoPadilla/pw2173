@@ -29,7 +29,7 @@ nav ul li{
 
 
 #tabla{
-	margin-top: -250px;
+	margin-top: -300px;
 }
 
 #boton{
@@ -59,10 +59,10 @@ nav ul li{
 .caja{
 	background: linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
 	margin-right: 30px;
-	margin-left: 20px;
+	margin-left: 10px;
 	border-radius: 150px;
 	color: white;
-	padding:10px 150px 10px 150px;
+	padding:10px 140px 10px 140px;
 	width: 20px;
 
 }
