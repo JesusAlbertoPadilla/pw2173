@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="js/calculadora.css">
+	<script src="js/calculadora.js"></script>
+</head>
+<body>
+	<h1>Calculadora Basica</h1>
+	<form action="#" name="calculadora" id="calculadora">
+	<table>
+		<tr>
+			<td colspan=4>
+				<input type="text" size=20 value=0 name="Operando1">
+			</td>
+		</tr>
+		<tr>
+			<td colspan=4>
+				<input type="text" size=20 value=0 name="Operando2">
+			</td>
+		</tr>
+		<tr>
+			<td colspan=4>
+				<input type="text" size=20 value=0 name="Resultado">
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td><input type="button" value="7" onClick="numero(this.value)"></td>
+			<td><input type="button" value="8" onClick="numero(this.value)"></td>
+			<td><input type="button" value="9" onClick="numero(this.value)"></td>
+			<td><input type="button" value="+" onclick="operadores(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onClick="numero(this.value)"></td>
+			<td><input type="button" value="5" onClick="numero(this.value)"></td>
+			<td><input type="button" value="6" onClick="numero(this.value)"></td>
+			<td><input type="button" value="-" onclick="operadores(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onClick="numero(this.value)"></td>
+			<td><input type="button" value="2" onClick="numero(this.value)"></td>
+			<td><input type="button" value="3" onClick="numero(this.value)"></td>
+			<td><input type="button" value="*" onclick="operadores(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="CE" onClick="borrar()"></td>
+			<td><input type="button" value="0" onClick="numero(this.value)"></td>
+			<td><input type="button" value="=" onClick="igual()"></td>
+			<td><input type="button" value="/" onClick="operadores(this.value)"></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
