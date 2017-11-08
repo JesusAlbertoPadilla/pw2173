@@ -25,3 +25,16 @@ function numero(num){
 function operadores(ope){
 	operador=ope
 }
+
+function igual(){
+	var valor1=document.calculadora.Operando1.value;
+	var valor2=document.calculadora.Operando2.value;
+	document.calculadora.Resultado.value= eval(valor1+operador+valor2);//eval=toma string que sea una operacion matematica y lo resuelve
+}
+
+function borrar(){
+	operador="";
+	document.calculadora.Operando1.value=0;
+	document.calculadora.Operando2.value=0;
+	document.calculadora.Resultado.value=0;
+}
