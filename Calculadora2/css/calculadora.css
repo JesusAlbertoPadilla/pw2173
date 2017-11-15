@@ -1,0 +1,28 @@
+body{
+	font-size: 16px; /*1em–––es la M que es el espacio mas grande de tamaño de letras*/
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+form{
+	background: gray;
+	width: 500px;
+	box-shadow: 15px 15px 15px black;
+	border-radius: 5px;
+	padding-bottom: 55px;
+}
+
+input[type="text"]{
+	width: 44em;
+	border-radius: 5px;
+}
+
+input[type="button"]{
+	background: blue;
+	width: 11em;
+	color: white;
+	border-radius: 5px;
+	padding-bottom: 3em;
+	
+	
+}
