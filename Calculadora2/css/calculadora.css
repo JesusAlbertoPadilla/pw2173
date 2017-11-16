@@ -1,7 +1,7 @@
 body{
 	font-size: 16px; /*1em–––es la M que es el espacio mas grande de tamaño de letras*/
 	max-width: 1024px;
-	margin:0 auto;
+	margin-left: 220px;
 }
 
 form{
@@ -10,6 +10,10 @@ form{
 	box-shadow: 15px 15px 15px black;
 	border-radius: 5px;
 	padding-bottom: 55px;
+}
+
+h1{
+	margin: 0 auto;
 }
 
 input[type="text"]{
@@ -22,7 +26,16 @@ input[type="button"]{
 	width: 11em;
 	color: white;
 	border-radius: 5px;
-	padding-bottom: 3em;
-	
-	
+	padding-bottom: 3em;	
+}
+
+#btnCientifica{
+	background: orange;
+	color: black;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px; 
+	font-weight: bold;
+	margin-left: 200px;
 }

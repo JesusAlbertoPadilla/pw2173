@@ -12,6 +12,7 @@ function muestraPantallaPrincipal(){
 		protocol: 'file',
 		slashes: true
 	}))
+	PantallaPrincipal.webContents.openDevTools();
 	PantallaPrincipal.show();
 }
 app.on('ready',muestraPantallaPrincipal)
