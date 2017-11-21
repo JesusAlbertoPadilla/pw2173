@@ -1,19 +1,19 @@
 {
   "name": "listado",
   "version": "1.0.0",
-  "description": "Listado de usuarios de randomusers",
+  "description": "Listado de usuarios de randomuser",
   "main": "main.js",
   "scripts": {
-    "start":"electron .",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Electron",
     "clase",
-    "pw2",
+    "pw",
     "randomuser"
   ],
-  "author": "Jesus Alberto Padilla Valencia",
+  "author": "M.C. Martin Nevarez",
   "license": "MIT",
   "devDependencies": {
     "asar": "^0.14.0",
