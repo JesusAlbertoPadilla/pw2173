@@ -1,0 +1,6 @@
+PHP
+     1. Lenguaje de programacion
+     2. se ejecuta del lado del servidor
+     3. Requiere un servicio web
+     4. Proces.ador de Hipertexto
+     5. Paginas dinamicas
