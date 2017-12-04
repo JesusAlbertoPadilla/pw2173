@@ -7,17 +7,24 @@ var inicia = function(){
 						 "&clave="+clave+
 						 "&id="+Math.random();
 		$.ajax({
-			url: "localhost/pw/php/entrada.php",
-			dataType: 'json',
+			url: " php/entrada.php",
+			dataType: 'json', //retorno
+			type: "POST", //lo que enviamos
+			data: parametros,
+
 			succes: function(data){
-
-			}
-			error: function(a,b,c){
-
+				if(data.respuesta == true){
+					alert("Bienvenido")
+				}else{
+					alert("Usuario y/o clave incorrectos");
+				}
+			},
+			error:function(a,b,c){
+				alert("No se pudo conectar al server");
 			}
 		});
 	}
-	$("btnEntrar").on("click",entrada);
+	$("#btnEntrar").on("click",entrada);
 }
 
 
